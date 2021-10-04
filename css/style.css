@@ -36,10 +36,10 @@
   font-size: 16px;
   font-weight: 500;
   z-index: 999;
-  margin-right: 5px;
+  padding-right: 5px;
   text-align: center;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+nav .navbar-light .navbar-nav .nav-link:hover {
   background-color: #869a9b;
   transition: 0.2s ease-in-out;
   color: #fff;
@@ -81,6 +81,11 @@
   background-color: #6fb048;
   padding: 8px 40px;
   color: #fff;
+}
+.banner-content a:hover {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  background-color: #83a7a5;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .bestof {
@@ -554,7 +559,7 @@
   padding: 30px 0px;
 }
 .just-footer h1 {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 400;
   color: #0f5f5c;
   padding-top: 12px;
@@ -567,9 +572,9 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
-  width: 55%;
+  width: 50%;
   align-items: center;
-  margin-left: auto;
+  margin: auto;
 }
 .social ul li {
   list-style: none;
